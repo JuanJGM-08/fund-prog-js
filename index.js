@@ -1,0 +1,1 @@
+function calculateTip(billAmount, tipPercentage) {}
