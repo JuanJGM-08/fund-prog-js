@@ -9,3 +9,13 @@ function calculateTip(billAmount, tipPercentage) {
     const tip = (billAmount * tipPercentage) / 100;
     return tip;
 }
+function mostrarResultado() {
+    console.log("=== CALCULADORA DE PROPINA ===");
+    console.log("Ejemplo 1 - Input: calculateTip(100, 10)");
+    console.log("Ejemplo 1 - Output:", calculateTip(100, 10));
+    console.log("---");
+    console.log("Ejemplo 2 - Input: calculateTip(1524.33, 25)");
+    console.log("Ejemplo 2 - Output:", calculateTip(1524.33, 25));
+    console.log("---");
+}
+mostrarResultado();
